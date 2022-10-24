@@ -1,8 +1,5 @@
 #!/bin/python3
 
-
-from sys import flags
-
 result = float
 my_list = []
 
