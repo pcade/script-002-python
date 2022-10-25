@@ -2,10 +2,7 @@
 
 from math import sqrt
 
-def first():
-    a = float(input("Введите a: "))
-    b = float(input("Введите b: "))
-    c = float(input("Введите c: "))
+def first(a, b, c):
     D = b*b - 4*a*c
     if D == 0:
         x = (-b + sqrt(D)) / (2 * a) 
@@ -17,5 +14,9 @@ def first():
     else:
         return('Корней нет') 
 
-print(first())
+a = float(input("Введите a: "))
+b = float(input("Введите b: "))
+c = float(input("Введите c: "))
+
+print(first(a, b, c))
 
