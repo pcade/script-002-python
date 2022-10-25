@@ -1,8 +1,5 @@
 #!/bin/python3
 
-from unittest.result import failfast
-
-
 final_list =[]
 string = 'MyProgram V1.2.3 Copyright (c) 2022'
 second_string = string.split(' ')
