@@ -2,7 +2,7 @@
 
 from math import sqrt
 
-def first(a, b, c):
+def first(a: float, b: float, c: float) -> str:
     D = b*b - 4*a*c
     if D == 0:
         x = (-b + sqrt(D)) / (2 * a) 
@@ -18,5 +18,5 @@ a = float(input("Введите a: "))
 b = float(input("Введите b: "))
 c = float(input("Введите c: "))
 
-print(first(a, b, c))
+print(first(a, b, c))  
 
