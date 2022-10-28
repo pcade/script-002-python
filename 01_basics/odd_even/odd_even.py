@@ -1,7 +1,11 @@
 #!/bin/python3
 
+def odd_even(finder: int) -> str:
+    if finder % 2 != 0 :
+        finder = ("Введённое число - не чётное")
+    else:
+        finder = ("Введённое число - чётное")
+    return(finder)
+
 finder = int(input("Введите целое число: "))
-if finder % 2 != 0 :
-    print("Введённое число - не чётное")
-else:
-    print("Введённое число - чётное")
+print(odd_even(finder))
